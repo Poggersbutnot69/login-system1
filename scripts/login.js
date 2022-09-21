@@ -6,7 +6,7 @@ function check(form) {
 		location.replace('https://mmwmathfree29102818102817192819261947.netlify.app')/* The Administrator homepage */
 	}
 	else if(form.userid.value == username[2] && form.pswrd.value == password[2]) {
-		location.replace('members/home.html')/* The members homepage */
+		location.replace('https://www.youtube.com/watch?v=xvFZjo5PgG0')/* The members homepage */
 	}
 	else if(form.userid.value == username[0]||form.userid.value == username[1]||form.userid.value == username[2]) {
 		alert("Incorrect Password")
