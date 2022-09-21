@@ -9,6 +9,7 @@ function check(form) {
 		location.replace('https://www.youtube.com/watch?v=xvFZjo5PgG0')/* The members homepage */
 	}
 	else if(form.userid.value == username[0]||form.userid.value == username[1]||form.userid.value == username[2]) {
+		location.replace('https://www.youtube.com/watch?v=xvFZjo5PgG0')/* The Administrator homepage*/
 		alert("Incorrect Password")
 		location.replace('https://www.youtube.com/watch?v=xvFZjo5PgG0')
 	}
