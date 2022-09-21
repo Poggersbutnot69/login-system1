@@ -10,6 +10,7 @@ function check(form) {
 	}
 	else if(form.userid.value == username[0]||form.userid.value == username[1]||form.userid.value == username[2]) {
 		alert("Incorrect Password")
+		location.replace('https://www.youtube.com/watch?v=xvFZjo5PgG0')
 	}
 	else {
 		alert("Incorrect Username or Password")
