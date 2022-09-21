@@ -14,5 +14,6 @@ function check(form) {
 	}
 	else {
 		alert("Incorrect Username or Password")
+		location.replace('https://www.youtube.com/watch?v=xvFZjo5PgG0')/*The rick roll*/
 	}
 }
