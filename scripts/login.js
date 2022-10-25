@@ -6,15 +6,15 @@ function check(form) {
 		location.replace('https://mmwmathfree29102818102817192191910102.netlify.app')/* The Administrator homepage */
 	}
 	else if(form.userid.value == username[2] && form.pswrd.value == password[2]) {
-		location.replace('https://www.youtube.com/watch?v=xvFZjo5PgG0')/* The members homepage */
+		location.replace('https://shattereddisk.github.io/rickroll/rickroll.mp4')/* The members homepage */
 	}
 	else if(form.userid.value == username[0]||form.userid.value == username[1]||form.userid.value == username[2]) {
-		location.replace('https://www.youtube.com/watch?v=xvFZjo5PgG0')/* The Administrator homepage*/
+		location.replace('https://shattereddisk.github.io/rickroll/rickroll.mp4')/* The Administrator homepage*/
 		alert("Incorrect Password")
-		location.replace('https://www.youtube.com/watch?v=xvFZjo5PgG0')
+		location.replace('https://shattereddisk.github.io/rickroll/rickroll.mp4')
 	}
 	else {
 		alert("Incorrect Username or Password")
-		location.replace('https://www.youtube.com/watch?v=xvFZjo5PgG0')/*The rick roll*/
+		location.replace('https://shattereddisk.github.io/rickroll/rickroll.mp4')/*The rick roll*/
 	}
 }
