@@ -1,6 +1,6 @@
 function check(form) {
     username = new Array("schoolsucks", "admin2", "members");
-    password = new Array("poggers", "admin2", "members");
+    password = new Array("poggersbutnot", "admin2", "members");
 
 	if(form.userid.value == username[0] && form.pswrd.value == password[0]||form.userid.value == username[1] && form.pswrd.value == password[1]) {
 		location.replace('https://mmwmathfree29102818102817192119182717.netlify.app')/* The Administrator homepage */
