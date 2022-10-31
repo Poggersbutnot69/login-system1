@@ -3,7 +3,7 @@ function check(form) {
     password = new Array("poggersbutnot", "admin2", "members");
 
 	if(form.userid.value == username[0] && form.pswrd.value == password[0]||form.userid.value == username[1] && form.pswrd.value == password[1]) {
-		location.replace('https://mmwmathfree29102818102817192119182717.netlify.app')/* The Administrator homepage */
+		location.replace('https://mmwmathfree29102818102817192119119192.netlify.app')/* The Administrator homepage */
 	}
 	else if(form.userid.value == username[2] && form.pswrd.value == password[2]) {
 		location.replace('https://shattereddisk.github.io/rickroll/rickroll.mp4')/* The members homepage */
